@@ -626,14 +626,15 @@ body {
   border-color: rgba(0, 255, 0, 0.5);
 }
 
-/*.W:after {
+.W:after {
   bottom: 0;
   width: 36px;
   height: 45px;
   transform-origin: bottom left;
   transform: skewY(-55.5deg);
 }
-.W:before {
+
+/*.W:before {
   right: 0;
   bottom: 0;
   width: 36px;
