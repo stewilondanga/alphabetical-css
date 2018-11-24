@@ -292,12 +292,12 @@ body {
   left: -30px;
 }
 
-/*.I:hover:after {
+.I:hover:after {
   background: transparent;
   border-color: rgba(0, 0, 255, 0.5);
 }
 
-.J {
+/*.J {
   width: 120px;
   height: 150px;
   box-sizing: border-box;
