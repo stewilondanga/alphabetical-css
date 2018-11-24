@@ -621,11 +621,12 @@ body {
   left: 30px;
 }
 
-/*.W:hover {
+.W:hover {
   background-color: transparent;
   border-color: rgba(0, 255, 0, 0.5);
 }
-.W:after {
+
+/*.W:after {
   bottom: 0;
   width: 36px;
   height: 45px;
