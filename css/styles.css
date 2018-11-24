@@ -148,7 +148,7 @@ body {
   top: 15px;
 }
 
-/*.D:after {
+.D:after {
   width: 105px;
   height: 150px;
   border: 24px solid black;
@@ -157,7 +157,8 @@ body {
   border-left: none;
   background: transparent;
 }
-.D:hover:after {
+
+/*.D:hover:after {
   background: transparent;
   border-color: rgba(0, 0, 255, 0.5);
 }
