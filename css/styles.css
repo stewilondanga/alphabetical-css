@@ -263,11 +263,12 @@ body {
   left: 45px;
 }
 
-/*.H:hover {
+.H:hover {
   background-color: transparent;
   border-color: rgba(0, 255, 0, 0.5);
 }
-.H:after {
+
+/*.H:after {
   width: 60px;
   height: 24px;
   top: 63px;
