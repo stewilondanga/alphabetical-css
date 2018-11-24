@@ -634,7 +634,7 @@ body {
   transform: skewY(-55.5deg);
 }
 
-/*.W:before {
+.W:before {
   right: 0;
   bottom: 0;
   width: 36px;
@@ -643,7 +643,7 @@ body {
   transform: skewY(55.5deg);
 }
 
-.X {
+/*.X {
   top: 15px;
   left: 75px;
 }
