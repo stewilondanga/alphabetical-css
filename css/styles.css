@@ -475,11 +475,12 @@ body {
   top: 15px;
 }
 
-/*.Q:hover {
+.Q:hover {
   background-color: transparent;
   border-color: rgba(0, 255, 0, 0.5);
 }
-.Q:before {
+
+/*.Q:before {
   right: 0;
   bottom: 0;
   width: 60px;
