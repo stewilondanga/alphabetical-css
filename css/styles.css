@@ -268,13 +268,13 @@ body {
   border-color: rgba(0, 255, 0, 0.5);
 }
 
-/*.H:after {
+.H:after {
   width: 60px;
   height: 24px;
   top: 63px;
 }
 
-.I {
+/*.I {
   width: 30px;
   height: 150px;
   left: 75px;
