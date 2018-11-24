@@ -14,12 +14,11 @@ body {
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
-
-.letter {
+/*.letter {
   text-align: left;
   width: 180px;
   height: 180px;
