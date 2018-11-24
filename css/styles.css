@@ -387,13 +387,14 @@ body {
   border-color: rgba(0, 255, 0, 0.5);
 }
 
-/*.M:after {
+.M:after {
   width: 36px;
   height: 45px;
   transform-origin: top left;
   transform: skewY(55.5deg);
 }
-.M:before {
+
+/*.M:before {
   right: 0;
   width: 36px;
   height: 45px;
