@@ -232,10 +232,11 @@ body {
   border-color: rgba(0, 255, 0, 0.5);
 }
 
-/*.G:hover:before {
+.G:hover:before {
   background-color: rgba(255, 0, 0, 0.5);
 }
-.G:after {
+
+/*.G:after {
   width: 30px;
   height: 39px;
   border: 22.5px solid black;
