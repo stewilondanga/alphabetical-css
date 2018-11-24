@@ -590,12 +590,12 @@ body {
   left: 30px;
 }
 
-/*.U:hover {
+.U:hover {
   border-color: rgba(0, 255, 0, 0.5);
   background-color: transparent;
 }
 
-.V {
+/*.V {
   left: 105px;
   top: 15px;
   width: 30px;
