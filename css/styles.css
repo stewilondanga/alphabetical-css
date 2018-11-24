@@ -654,13 +654,13 @@ body {
   transform: skew(36deg);
 }
 
-/*.X:after {
+.X:after {
   width: 30px;
   height: 150px;
   transform: skew(-36deg);
 }
 
-.Y {
+/*.Y {
   left: 30px;
   width: 30px;
   height: 75px;
