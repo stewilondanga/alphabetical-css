@@ -74,13 +74,13 @@ body {
   transform: skew(-32deg) translate(-46.8px);
 }
 
-/*.A:after {
+.A:after {
   width: 60px;
   height: 22.5px;
   transform: skew(-16deg) translate(-22.5px, 78px);
 }
 
-.B {
+/*.B {
   width: 24px;
   height: 150px;
   top: 15px;
