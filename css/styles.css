@@ -459,12 +459,12 @@ body {
   background-color: transparent;
 }
 
-/*.P:hover:before {
+.P:hover:before {
   background-color: transparent;
   border-color: rgba(255, 0, 0, 0.5);
 }
 
-.Q {
+/*.Q {
   width: 120px;
   height: 150px;
   box-sizing: border-box;
