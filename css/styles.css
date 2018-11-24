@@ -684,7 +684,7 @@ body {
   left: 27.2727272727px;
 }
 
-/*.Z {
+.Z {
   top: 15px;
   left: 45px;
   width: 90px;
@@ -696,7 +696,8 @@ body {
   height: 150px;
   box-sizing: border-box;
 }
-.Z:before {
+
+/*.Z:before {
   width: 30px;
   height: 102px;
   transform: skew(-30.6deg);
