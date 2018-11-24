@@ -103,11 +103,12 @@ body {
   border-left: none;
 }
 
-/*.B:hover:before {
+.B:hover:before {
   background-color: transparent;
   border-color: rgba(255, 0, 0, 0.5);
 }
-.B:hover:after {
+
+/*.B:hover:after {
   background-color: transparent;
   border-color: rgba(0, 0, 255, 0.5);
 }
