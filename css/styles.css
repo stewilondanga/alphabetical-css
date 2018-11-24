@@ -464,7 +464,7 @@ body {
   border-color: rgba(255, 0, 0, 0.5);
 }
 
-/*.Q {
+.Q {
   width: 120px;
   height: 150px;
   box-sizing: border-box;
@@ -474,7 +474,8 @@ body {
   left: 30px;
   top: 15px;
 }
-.Q:hover {
+
+/*.Q:hover {
   background-color: transparent;
   border-color: rgba(0, 255, 0, 0.5);
 }
