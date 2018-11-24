@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -8,7 +8,7 @@ body {
 
 .my_social {
   position: absolute;
-  top: 25px;
+  top: 625px;
   left: 25px;
 }
 
@@ -19,6 +19,636 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.letter {
+  text-align: left;
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.char {
+  position: relative;
+  background-color: black;
+}
+.char:before, .char:after {
+  content: '';
+  position: absolute;
+  display: block;
+}
+.char:before {
+  background-color: black;
+}
+.char:after {
+  background-color: black;
+}
+.char:hover {
+  cursor: pointer;
+  background-color: rgba(0, 255, 0, 0.5);
+}
+.char:hover:before {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.char:hover:after {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.A {
+  left: 105px;
+  top: 15px;
+  width: 24px;
+  height: 150px;
+  transform: skew(16deg);
+}
+.A:before {
+  width: 24px;
+  height: 150px;
+  transform: skew(-32deg) translate(-46.8px);
+}
+.A:after {
+  width: 60px;
+  height: 22.5px;
+  transform: skew(-16deg) translate(-22.5px, 78px);
+}
+
+.B {
+  width: 24px;
+  height: 150px;
+  top: 15px;
+  left: 49.5px;
+}
+.B:after, .B:before {
+  box-sizing: border-box;
+  width: 90px;
+  height: 85px;
+  border: 20px solid black;
+  border-radius: 0 45px 45px 0;
+  border-left: none;
+  background-color: transparent;
+}
+.B:after {
+  top: 65px;
+  border: 20px solid black;
+  border-left: none;
+}
+.B:hover:before {
+  background-color: transparent;
+  border-color: rgba(255, 0, 0, 0.5);
+}
+.B:hover:after {
+  background-color: transparent;
+  border-color: rgba(0, 0, 255, 0.5);
+}
+
+.C {
+  width: 120px;
+  height: 150px;
+  box-sizing: border-box;
+  border: 22.5px solid black;
+  background-color: transparent;
+  border-radius: 50%;
+  left: 30px;
+  top: 15px;
+}
+.C:after {
+  width: 90px;
+  height: 90px;
+  top: 52.5px;
+  transform: translateY(-50%) translateX(45px) rotate(45deg);
+  background: #f2f2f2;
+}
+.C:hover {
+  background-color: transparent;
+  border-color: rgba(0, 255, 0, 0.5);
+}
+.C:hover:after {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.D {
+  width: 24px;
+  height: 150px;
+  left: 37.5px;
+  top: 15px;
+}
+.D:after {
+  width: 105px;
+  height: 150px;
+  border: 24px solid black;
+  box-sizing: border-box;
+  border-radius: 0 75px 75px 0;
+  border-left: none;
+  background: transparent;
+}
+.D:hover:after {
+  background: transparent;
+  border-color: rgba(0, 0, 255, 0.5);
+}
+
+.E {
+  box-sizing: border-box;
+  width: 90px;
+  height: 150px;
+  background: transparent;
+  border: 24px solid black;
+  border-right: none;
+  top: 15px;
+  left: 45px;
+}
+.E:hover {
+  background-color: transparent;
+  border-color: rgba(0, 255, 0, 0.5);
+}
+.E:after {
+  width: 60px;
+  height: 24px;
+  top: 39px;
+}
+
+.F {
+  box-sizing: border-box;
+  width: 90px;
+  height: 150px;
+  background: transparent;
+  border: 24px solid black;
+  border-right: none;
+  border-bottom: none;
+  top: 15px;
+  left: 45px;
+}
+.F:hover {
+  background-color: transparent;
+  border-color: rgba(0, 255, 0, 0.5);
+}
+.F:after {
+  width: 60px;
+  height: 24px;
+  top: 39px;
+}
+
+.G {
+  width: 120px;
+  height: 150px;
+  box-sizing: border-box;
+  border: 22.5px solid black;
+  background-color: transparent;
+  border-radius: 50%;
+  left: 30px;
+  top: 15px;
+}
+.G:before {
+  width: 90px;
+  height: 90px;
+  top: 52.5px;
+  transform: translateY(-50%) translateX(45px) rotate(45deg);
+  background: #f2f2f2;
+}
+.G:hover {
+  background-color: transparent;
+  border-color: rgba(0, 255, 0, 0.5);
+}
+.G:hover:before {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.G:after {
+  width: 30px;
+  height: 39px;
+  border: 22.5px solid black;
+  border-left: none;
+  border-bottom: none;
+  background: transparent;
+  right: -4.585713px;
+  bottom: -0.6px;
+}
+.G:hover:after {
+  border-color: rgba(0, 0, 255, 0.5);
+}
+
+.H {
+  box-sizing: border-box;
+  width: 90px;
+  height: 150px;
+  background: transparent;
+  border: 24px solid black;
+  border-top: none;
+  border-bottom: none;
+  top: 15px;
+  left: 45px;
+}
+.H:hover {
+  background-color: transparent;
+  border-color: rgba(0, 255, 0, 0.5);
+}
+.H:after {
+  width: 60px;
+  height: 24px;
+  top: 63px;
+}
+
+.I {
+  width: 30px;
+  height: 150px;
+  left: 75px;
+  top: 15px;
+}
+.I:after {
+  width: 90px;
+  height: 150px;
+  box-sizing: border-box;
+  border: 30px solid black;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  left: -30px;
+}
+.I:hover:after {
+  background: transparent;
+  border-color: rgba(0, 0, 255, 0.5);
+}
+
+.J {
+  width: 120px;
+  height: 150px;
+  box-sizing: border-box;
+  border-radius: 0 0 60px 60px;
+  border: 30px solid black;
+  background-color: transparent;
+  border-left-color: transparent;
+  border-top: none;
+  top: 15px;
+  left: 3px;
+}
+.J:after {
+  width: 90px;
+  height: 30px;
+  left: 20px;
+}
+.J:hover {
+  border-color: rgba(0, 255, 0, 0.5);
+  border-left-color: transparent;
+  background-color: transparent;
+}
+
+.K {
+  box-sizing: border-box;
+  width: 90px;
+  height: 150px;
+  background: transparent;
+  border-left: 24px solid black;
+  top: 15px;
+  left: 45px;
+}
+.K:hover {
+  background-color: transparent;
+  border-color: rgba(0, 255, 0, 0.5);
+}
+.K:after {
+  width: 72px;
+  height: 33px;
+  top: 60px;
+  transform-origin: top left;
+  transform: skewY(-41deg);
+}
+.K:before {
+  width: 72px;
+  height: 33px;
+  top: 60px;
+  transform-origin: top left;
+  transform: skewY(39deg);
+}
+
+.L {
+  box-sizing: border-box;
+  width: 90px;
+  height: 150px;
+  background: transparent;
+  border: 24px solid black;
+  border-right: none;
+  border-top: none;
+  top: 15px;
+  left: 45px;
+}
+.L:hover {
+  background-color: transparent;
+  border-color: rgba(0, 255, 0, 0.5);
+}
+
+.M {
+  box-sizing: border-box;
+  width: 120px;
+  height: 150px;
+  background: transparent;
+  border: 24px solid black;
+  border-top: none;
+  border-bottom: none;
+  top: 15px;
+  left: 30px;
+}
+.M:hover {
+  background-color: transparent;
+  border-color: rgba(0, 255, 0, 0.5);
+}
+.M:after {
+  width: 36px;
+  height: 45px;
+  transform-origin: top left;
+  transform: skewY(55.5deg);
+}
+.M:before {
+  right: 0;
+  width: 36px;
+  height: 45px;
+  transform-origin: top right;
+  transform: skewY(-55.5deg);
+}
+
+.N {
+  box-sizing: border-box;
+  width: 120px;
+  height: 150px;
+  background: transparent;
+  border: 24px solid black;
+  border-top: none;
+  border-bottom: none;
+  top: 15px;
+  left: 30px;
+}
+.N:hover {
+  background-color: transparent;
+  border-color: rgba(0, 255, 0, 0.5);
+}
+.N:after {
+  width: 72px;
+  height: 45px;
+  transform-origin: top left;
+  transform: skewY(55.5deg);
+}
+
+.O {
+  width: 120px;
+  height: 150px;
+  box-sizing: border-box;
+  border: 22.5px solid black;
+  background-color: transparent;
+  border-radius: 50%;
+  left: 30px;
+  top: 15px;
+}
+.O:hover {
+  background-color: transparent;
+  border-color: rgba(0, 255, 0, 0.5);
+}
+
+.P {
+  width: 24px;
+  height: 150px;
+  top: 15px;
+  left: 49.5px;
+}
+.P:before {
+  box-sizing: border-box;
+  width: 90px;
+  height: 85px;
+  border: 20px solid black;
+  border-radius: 0 45px 45px 0;
+  border-left: none;
+  background-color: transparent;
+}
+.P:hover:before {
+  background-color: transparent;
+  border-color: rgba(255, 0, 0, 0.5);
+}
+
+.Q {
+  width: 120px;
+  height: 150px;
+  box-sizing: border-box;
+  border: 22.5px solid black;
+  background-color: transparent;
+  border-radius: 50%;
+  left: 30px;
+  top: 15px;
+}
+.Q:hover {
+  background-color: transparent;
+  border-color: rgba(0, 255, 0, 0.5);
+}
+.Q:before {
+  right: 0;
+  bottom: 0;
+  width: 60px;
+  height: 24px;
+  transform: rotate(47deg) translateX(21px);
+}
+
+.R {
+  width: 24px;
+  height: 150px;
+  top: 15px;
+  left: 49.5px;
+}
+.R:before {
+  box-sizing: border-box;
+  width: 90px;
+  height: 85px;
+  border: 20px solid black;
+  border-radius: 0 45px 45px 0;
+  border-left: none;
+  background-color: transparent;
+}
+.R:hover:before {
+  background-color: transparent;
+  border-color: rgba(255, 0, 0, 0.5);
+}
+.R:after {
+  width: 30px;
+  height: 75px;
+  top: 75px;
+  left: 18px;
+  transform-origin: top left;
+  transform: skewX(33deg);
+}
+
+.S {
+  left: 50px;
+  top: 50px;
+  transform: scaleX(-1) rotate(-20deg) translate(95px, -21px);
+}
+.S:before {
+  box-sizing: border-box;
+  width: 90px;
+  height: 85px;
+  border: 20px solid black;
+  border-radius: 0 45px 45px 0;
+  border-left: none;
+  background-color: transparent;
+}
+.S:hover:before {
+  background-color: transparent;
+  border-color: rgba(255, 0, 0, 0.5);
+}
+.S:after {
+  box-sizing: border-box;
+  width: 90px;
+  height: 85px;
+  border: 20px solid black;
+  border-radius: 0 45px 45px 0;
+  border-left: none;
+  background-color: transparent;
+  transform-origin: bottom left;
+  transform: rotate(180deg) translateY(20px) translateX(-54px);
+}
+.S:hover:after {
+  background-color: transparent;
+  border-color: rgba(0, 0, 255, 0.5);
+}
+
+.T {
+  width: 30px;
+  height: 150px;
+  left: 75px;
+  top: 15px;
+}
+.T:after {
+  width: 108px;
+  height: 150px;
+  box-sizing: border-box;
+  border-top: 30px solid black;
+  background-color: transparent;
+  left: -39px;
+}
+.T:hover:after {
+  background: transparent;
+  border-color: rgba(0, 0, 255, 0.5);
+}
+
+.U {
+  width: 120px;
+  height: 150px;
+  box-sizing: border-box;
+  border-radius: 0 0 60px 60px;
+  border: 30px solid black;
+  background-color: transparent;
+  border-top: none;
+  top: 15px;
+  left: 30px;
+}
+.U:hover {
+  border-color: rgba(0, 255, 0, 0.5);
+  background-color: transparent;
+}
+
+.V {
+  left: 105px;
+  top: 15px;
+  width: 30px;
+  height: 150px;
+  transform: skew(-16deg);
+}
+.V:before {
+  width: 30px;
+  height: 150px;
+  transform: skew(32deg) translate(-46.5px);
+}
+
+.W {
+  box-sizing: border-box;
+  width: 120px;
+  height: 150px;
+  background: transparent;
+  border: 24px solid black;
+  border-top: none;
+  border-bottom: none;
+  top: 15px;
+  left: 30px;
+}
+.W:hover {
+  background-color: transparent;
+  border-color: rgba(0, 255, 0, 0.5);
+}
+.W:after {
+  bottom: 0;
+  width: 36px;
+  height: 45px;
+  transform-origin: bottom left;
+  transform: skewY(-55.5deg);
+}
+.W:before {
+  right: 0;
+  bottom: 0;
+  width: 36px;
+  height: 45px;
+  transform-origin: bottom right;
+  transform: skewY(55.5deg);
+}
+
+.X {
+  top: 15px;
+  left: 75px;
+}
+.X:before {
+  width: 30px;
+  height: 150px;
+  transform: skew(36deg);
+}
+.X:after {
+  width: 30px;
+  height: 150px;
+  transform: skew(-36deg);
+}
+
+.Y {
+  left: 30px;
+  width: 30px;
+  height: 75px;
+  top: 75px;
+  transform: translate(42px, 15px);
+}
+.Y:before {
+  top: -75px;
+  width: 30px;
+  height: 75px;
+  transform: skew(36deg);
+  left: -27.2727272727px;
+}
+.Y:after {
+  top: -75px;
+  width: 30px;
+  height: 75px;
+  transform: skew(-36deg);
+  left: 27.2727272727px;
+}
+
+.Z {
+  top: 15px;
+  left: 45px;
+  width: 90px;
+  height: 150px;
+  border: 24px solid black;
+  background: transparent;
+  border-left: none;
+  border-right: none;
+  height: 150px;
+  box-sizing: border-box;
+}
+.Z:before {
+  width: 30px;
+  height: 102px;
+  transform: skew(-30.6deg);
+  transform-origin: bottom left;
+}
+.Z:hover {
+  background: transparent;
+  border-color: rgba(0, 255, 0, 0.5);
 }
 
 .containers {
