@@ -510,7 +510,7 @@ body {
   border-color: rgba(255, 0, 0, 0.5);
 }
 
-/*.R:after {
+.R:after {
   width: 30px;
   height: 75px;
   top: 75px;
@@ -519,7 +519,7 @@ body {
   transform: skewX(33deg);
 }
 
-.S {
+/*.S {
   left: 50px;
   top: 50px;
   transform: scaleX(-1) rotate(-20deg) translate(95px, -21px);
