@@ -419,14 +419,14 @@ body {
   border-color: rgba(0, 255, 0, 0.5);
 }
 
-/*.N:after {
+.N:after {
   width: 72px;
   height: 45px;
   transform-origin: top left;
   transform: skewY(55.5deg);
 }
 
-.O {
+/*.O {
   width: 120px;
   height: 150px;
   box-sizing: border-box;
