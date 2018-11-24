@@ -370,7 +370,7 @@ body {
   border-color: rgba(0, 255, 0, 0.5);
 }
 
-/*.M {
+.M {
   box-sizing: border-box;
   width: 120px;
   height: 150px;
@@ -381,7 +381,8 @@ body {
   top: 15px;
   left: 30px;
 }
-.M:hover {
+
+/*.M:hover {
   background-color: transparent;
   border-color: rgba(0, 255, 0, 0.5);
 }
