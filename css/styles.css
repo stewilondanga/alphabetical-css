@@ -316,13 +316,13 @@ body {
   left: 20px;
 }
 
-/*.J:hover {
+.J:hover {
   border-color: rgba(0, 255, 0, 0.5);
   border-left-color: transparent;
   background-color: transparent;
 }
 
-.K {
+/*.K {
   box-sizing: border-box;
   width: 90px;
   height: 150px;
