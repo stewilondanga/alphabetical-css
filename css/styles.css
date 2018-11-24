@@ -668,14 +668,15 @@ body {
   transform: translate(42px, 15px);
 }
 
-/*.Y:before {
+.Y:before {
   top: -75px;
   width: 30px;
   height: 75px;
   transform: skew(36deg);
   left: -27.2727272727px;
 }
-.Y:after {
+
+/*.Y:after {
   top: -75px;
   width: 30px;
   height: 75px;
