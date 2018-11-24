@@ -158,12 +158,12 @@ body {
   background: transparent;
 }
 
-/*.D:hover:after {
+.D:hover:after {
   background: transparent;
   border-color: rgba(0, 0, 255, 0.5);
 }
 
-.E {
+/*.E {
   box-sizing: border-box;
   width: 90px;
   height: 150px;
