@@ -87,7 +87,7 @@ body {
   left: 49.5px;
 }
 
-/*.B:after, .B:before {
+.B:after, .B:before {
   box-sizing: border-box;
   width: 90px;
   height: 85px;
@@ -96,7 +96,8 @@ body {
   border-left: none;
   background-color: transparent;
 }
-.B:after {
+
+/*.B:after {
   top: 65px;
   border: 20px solid black;
   border-left: none;
