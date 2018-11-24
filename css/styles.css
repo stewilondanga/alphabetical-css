@@ -33,12 +33,13 @@ body {
   background-color: black;
 }
 
-/*.char:before, .char:after {
+.char:before, .char:after {
   content: '';
   position: absolute;
   display: block;
 }
-.char:before {
+
+/*.char:before {
   background-color: black;
 }
 .char:after {
