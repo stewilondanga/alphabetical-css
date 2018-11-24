@@ -297,7 +297,7 @@ body {
   border-color: rgba(0, 0, 255, 0.5);
 }
 
-/*.J {
+.J {
   width: 120px;
   height: 150px;
   box-sizing: border-box;
@@ -309,7 +309,8 @@ body {
   top: 15px;
   left: 3px;
 }
-.J:after {
+
+/*.J:after {
   width: 90px;
   height: 30px;
   left: 20px;
