@@ -174,11 +174,12 @@ body {
   left: 45px;
 }
 
-/*.E:hover {
+.E:hover {
   background-color: transparent;
   border-color: rgba(0, 255, 0, 0.5);
 }
-.E:after {
+
+/*.E:after {
   width: 60px;
   height: 24px;
   top: 39px;
