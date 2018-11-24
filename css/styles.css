@@ -80,13 +80,14 @@ body {
   transform: skew(-16deg) translate(-22.5px, 78px);
 }
 
-/*.B {
+.B {
   width: 24px;
   height: 150px;
   top: 15px;
   left: 49.5px;
 }
-.B:after, .B:before {
+
+/*.B:after, .B:before {
   box-sizing: border-box;
   width: 90px;
   height: 85px;
