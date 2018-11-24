@@ -247,11 +247,11 @@ body {
   bottom: -0.6px;
 }
 
-/*.G:hover:after {
+.G:hover:after {
   border-color: rgba(0, 0, 255, 0.5);
 }
 
-.H {
+/*.H {
   box-sizing: border-box;
   width: 90px;
   height: 150px;
