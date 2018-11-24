@@ -557,13 +557,14 @@ body {
   border-color: rgba(0, 0, 255, 0.5);
 }
 
-/*.T {
+.T {
   width: 30px;
   height: 150px;
   left: 75px;
   top: 15px;
 }
-.T:after {
+
+/*.T:after {
   width: 108px;
   height: 150px;
   box-sizing: border-box;
