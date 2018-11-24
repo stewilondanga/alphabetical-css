@@ -449,7 +449,7 @@ body {
   left: 49.5px;
 }
 
-/*.P:before {
+.P:before {
   box-sizing: border-box;
   width: 90px;
   height: 85px;
@@ -458,7 +458,8 @@ body {
   border-left: none;
   background-color: transparent;
 }
-.P:hover:before {
+
+/*.P:hover:before {
   background-color: transparent;
   border-color: rgba(255, 0, 0, 0.5);
 }
