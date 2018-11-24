@@ -442,13 +442,14 @@ body {
   border-color: rgba(0, 255, 0, 0.5);
 }
 
-/*.P {
+.P {
   width: 24px;
   height: 150px;
   top: 15px;
   left: 49.5px;
 }
-.P:before {
+
+/*.P:before {
   box-sizing: border-box;
   width: 90px;
   height: 85px;
