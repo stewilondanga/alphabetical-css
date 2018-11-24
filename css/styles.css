@@ -382,11 +382,12 @@ body {
   left: 30px;
 }
 
-/*.M:hover {
+.M:hover {
   background-color: transparent;
   border-color: rgba(0, 255, 0, 0.5);
 }
-.M:after {
+
+/*.M:after {
   width: 36px;
   height: 45px;
   transform-origin: top left;
