@@ -236,7 +236,7 @@ body {
   background-color: rgba(255, 0, 0, 0.5);
 }
 
-/*.G:after {
+.G:after {
   width: 30px;
   height: 39px;
   border: 22.5px solid black;
@@ -246,7 +246,8 @@ body {
   right: -4.585713px;
   bottom: -0.6px;
 }
-.G:hover:after {
+
+/*.G:hover:after {
   border-color: rgba(0, 0, 255, 0.5);
 }
 
