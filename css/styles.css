@@ -535,11 +535,12 @@ body {
   background-color: transparent;
 }
 
-/*.S:hover:before {
+.S:hover:before {
   background-color: transparent;
   border-color: rgba(255, 0, 0, 0.5);
 }
-.S:after {
+
+/*.S:after {
   box-sizing: border-box;
   width: 90px;
   height: 85px;
