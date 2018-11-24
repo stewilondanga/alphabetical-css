@@ -281,7 +281,7 @@ body {
   top: 15px;
 }
 
-/*.I:after {
+.I:after {
   width: 90px;
   height: 150px;
   box-sizing: border-box;
@@ -291,7 +291,8 @@ body {
   background-color: transparent;
   left: -30px;
 }
-.I:hover:after {
+
+/*.I:hover:after {
   background: transparent;
   border-color: rgba(0, 0, 255, 0.5);
 }
