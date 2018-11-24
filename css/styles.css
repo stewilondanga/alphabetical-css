@@ -426,7 +426,7 @@ body {
   transform: skewY(55.5deg);
 }
 
-/*.O {
+.O {
   width: 120px;
   height: 150px;
   box-sizing: border-box;
@@ -436,7 +436,7 @@ body {
   left: 30px;
   top: 15px;
 }
-.O:hover {
+/*.O:hover {
   background-color: transparent;
   border-color: rgba(0, 255, 0, 0.5);
 }
