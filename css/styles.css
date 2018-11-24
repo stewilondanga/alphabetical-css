@@ -197,11 +197,12 @@ body {
   left: 45px;
 }
 
-/*.F:hover {
+.F:hover {
   background-color: transparent;
   border-color: rgba(0, 255, 0, 0.5);
 }
-.F:after {
+
+/*.F:after {
   width: 60px;
   height: 24px;
   top: 39px;
