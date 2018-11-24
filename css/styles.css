@@ -648,12 +648,13 @@ body {
   left: 75px;
 }
 
-/*.X:before {
+.X:before {
   width: 30px;
   height: 150px;
   transform: skew(36deg);
 }
-.X:after {
+
+/*.X:after {
   width: 30px;
   height: 150px;
   transform: skew(-36deg);
