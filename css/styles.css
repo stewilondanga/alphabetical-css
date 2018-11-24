@@ -124,14 +124,15 @@ body {
   top: 15px;
 }
 
-/*.C:after {
+.C:after {
   width: 90px;
   height: 90px;
   top: 52.5px;
   transform: translateY(-50%) translateX(45px) rotate(45deg);
   background: #f2f2f2;
 }
-.C:hover {
+
+/*.C:hover {
   background-color: transparent;
   border-color: rgba(0, 255, 0, 0.5);
 }
