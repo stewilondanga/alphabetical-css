@@ -141,13 +141,14 @@ body {
   background-color: rgba(0, 0, 255, 0.5);
 }
 
-/*.D {
+.D {
   width: 24px;
   height: 150px;
   left: 37.5px;
   top: 15px;
 }
-.D:after {
+
+/*.D:after {
   width: 105px;
   height: 150px;
   border: 24px solid black;
