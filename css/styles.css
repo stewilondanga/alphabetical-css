@@ -18,7 +18,7 @@ body {
   height: 1.5em;
 }
 
-/*.letter {
+.letter {
   text-align: left;
   width: 180px;
   height: 180px;
@@ -28,7 +28,7 @@ body {
   overflow: hidden;
 }
 
-.char {
+/*.char {
   position: relative;
   background-color: black;
 }
