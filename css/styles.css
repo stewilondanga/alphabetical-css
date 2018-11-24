@@ -676,7 +676,7 @@ body {
   left: -27.2727272727px;
 }
 
-/*.Y:after {
+.Y:after {
   top: -75px;
   width: 30px;
   height: 75px;
@@ -684,7 +684,7 @@ body {
   left: 27.2727272727px;
 }
 
-.Z {
+/*.Z {
   top: 15px;
   left: 45px;
   width: 90px;
