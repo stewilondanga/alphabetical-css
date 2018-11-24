@@ -251,7 +251,7 @@ body {
   border-color: rgba(0, 0, 255, 0.5);
 }
 
-/*.H {
+.H {
   box-sizing: border-box;
   width: 90px;
   height: 150px;
@@ -262,7 +262,8 @@ body {
   top: 15px;
   left: 45px;
 }
-.H:hover {
+
+/*.H:hover {
   background-color: transparent;
   border-color: rgba(0, 255, 0, 0.5);
 }
