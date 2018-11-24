@@ -113,7 +113,7 @@ body {
   border-color: rgba(0, 0, 255, 0.5);
 }
 
-/*.C {
+.C {
   width: 120px;
   height: 150px;
   box-sizing: border-box;
@@ -123,7 +123,8 @@ body {
   left: 30px;
   top: 15px;
 }
-.C:after {
+
+/*.C:after {
   width: 90px;
   height: 90px;
   top: 52.5px;
