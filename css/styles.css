@@ -274,13 +274,14 @@ body {
   top: 63px;
 }
 
-/*.I {
+.I {
   width: 30px;
   height: 150px;
   left: 75px;
   top: 15px;
 }
-.I:after {
+
+/*.I:after {
   width: 90px;
   height: 150px;
   box-sizing: border-box;
