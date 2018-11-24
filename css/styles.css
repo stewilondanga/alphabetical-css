@@ -60,14 +60,15 @@ body {
   background-color: rgba(0, 0, 255, 0.5);
 }
 
-/*.A {
+.A {
   left: 105px;
   top: 15px;
   width: 24px;
   height: 150px;
   transform: skew(16deg);
 }
-.A:before {
+
+/*.A:before {
   width: 24px;
   height: 150px;
   transform: skew(-32deg) translate(-46.8px);
