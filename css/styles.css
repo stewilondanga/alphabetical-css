@@ -365,12 +365,12 @@ body {
   left: 45px;
 }
 
-/*.L:hover {
+.L:hover {
   background-color: transparent;
   border-color: rgba(0, 255, 0, 0.5);
 }
 
-.M {
+/*.M {
   box-sizing: border-box;
   width: 120px;
   height: 150px;
