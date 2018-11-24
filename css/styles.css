@@ -519,12 +519,13 @@ body {
   transform: skewX(33deg);
 }
 
-/*.S {
+.S {
   left: 50px;
   top: 50px;
   transform: scaleX(-1) rotate(-20deg) translate(95px, -21px);
 }
-.S:before {
+
+/*.S:before {
   box-sizing: border-box;
   width: 90px;
   height: 85px;
