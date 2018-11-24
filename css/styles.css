@@ -488,13 +488,14 @@ body {
   transform: rotate(47deg) translateX(21px);
 }
 
-/*.R {
+.R {
   width: 24px;
   height: 150px;
   top: 15px;
   left: 49.5px;
 }
-.R:before {
+
+/*.R:before {
   box-sizing: border-box;
   width: 90px;
   height: 85px;
