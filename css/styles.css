@@ -310,12 +310,13 @@ body {
   left: 3px;
 }
 
-/*.J:after {
+.J:after {
   width: 90px;
   height: 30px;
   left: 20px;
 }
-.J:hover {
+
+/*.J:hover {
   border-color: rgba(0, 255, 0, 0.5);
   border-left-color: transparent;
   background-color: transparent;
