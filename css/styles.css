@@ -137,11 +137,11 @@ body {
   border-color: rgba(0, 255, 0, 0.5);
 }
 
-/*.C:hover:after {
+.C:hover:after {
   background-color: rgba(0, 0, 255, 0.5);
 }
 
-.D {
+/*.D {
   width: 24px;
   height: 150px;
   left: 37.5px;
