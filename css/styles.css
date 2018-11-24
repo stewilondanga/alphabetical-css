@@ -540,7 +540,7 @@ body {
   border-color: rgba(255, 0, 0, 0.5);
 }
 
-/*.S:after {
+.S:after {
   box-sizing: border-box;
   width: 90px;
   height: 85px;
@@ -551,7 +551,8 @@ body {
   transform-origin: bottom left;
   transform: rotate(180deg) translateY(20px) translateX(-54px);
 }
-.S:hover:after {
+
+/*.S:hover:after {
   background-color: transparent;
   border-color: rgba(0, 0, 255, 0.5);
 }
