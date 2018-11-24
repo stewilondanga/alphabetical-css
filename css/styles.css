@@ -505,11 +505,12 @@ body {
   background-color: transparent;
 }
 
-/*.R:hover:before {
+.R:hover:before {
   background-color: transparent;
   border-color: rgba(255, 0, 0, 0.5);
 }
-.R:after {
+
+/*.R:after {
   width: 30px;
   height: 75px;
   top: 75px;
