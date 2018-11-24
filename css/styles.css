@@ -609,7 +609,7 @@ body {
   transform: skew(32deg) translate(-46.5px);
 }
 
-/*.W {
+.W {
   box-sizing: border-box;
   width: 120px;
   height: 150px;
@@ -620,7 +620,8 @@ body {
   top: 15px;
   left: 30px;
 }
-.W:hover {
+
+/*.W:hover {
   background-color: transparent;
   border-color: rgba(0, 255, 0, 0.5);
 }
