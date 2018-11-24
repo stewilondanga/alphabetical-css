@@ -573,12 +573,12 @@ body {
   left: -39px;
 }
 
-/*.T:hover:after {
+.T:hover:after {
   background: transparent;
   border-color: rgba(0, 0, 255, 0.5);
 }
 
-.U {
+/*.U {
   width: 120px;
   height: 150px;
   box-sizing: border-box;
