@@ -337,14 +337,15 @@ body {
   border-color: rgba(0, 255, 0, 0.5);
 }
 
-/*.K:after {
+.K:after {
   width: 72px;
   height: 33px;
   top: 60px;
   transform-origin: top left;
   transform: skewY(-41deg);
 }
-.K:before {
+
+/*.K:before {
   width: 72px;
   height: 33px;
   top: 60px;
