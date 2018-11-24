@@ -603,13 +603,13 @@ body {
   transform: skew(-16deg);
 }
 
-/*.V:before {
+.V:before {
   width: 30px;
   height: 150px;
   transform: skew(32deg) translate(-46.5px);
 }
 
-.W {
+/*.W {
   box-sizing: border-box;
   width: 120px;
   height: 150px;
