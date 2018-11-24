@@ -564,7 +564,7 @@ body {
   top: 15px;
 }
 
-/*.T:after {
+.T:after {
   width: 108px;
   height: 150px;
   box-sizing: border-box;
@@ -572,7 +572,8 @@ body {
   background-color: transparent;
   left: -39px;
 }
-.T:hover:after {
+
+/*.T:hover:after {
   background: transparent;
   border-color: rgba(0, 0, 255, 0.5);
 }
