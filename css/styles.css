@@ -43,10 +43,11 @@ body {
   background-color: black;
 }
 
-/*.char:after {
+.char:after {
   background-color: black;
 }
-.char:hover {
+
+/*.char:hover {
   cursor: pointer;
   background-color: rgba(0, 255, 0, 0.5);
 }
