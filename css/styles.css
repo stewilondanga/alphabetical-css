@@ -660,14 +660,15 @@ body {
   transform: skew(-36deg);
 }
 
-/*.Y {
+.Y {
   left: 30px;
   width: 30px;
   height: 75px;
   top: 75px;
   transform: translate(42px, 15px);
 }
-.Y:before {
+
+/*.Y:before {
   top: -75px;
   width: 30px;
   height: 75px;
