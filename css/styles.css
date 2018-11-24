@@ -414,11 +414,12 @@ body {
   left: 30px;
 }
 
-/*.N:hover {
+.N:hover {
   background-color: transparent;
   border-color: rgba(0, 255, 0, 0.5);
 }
-.N:after {
+
+/*.N:after {
   width: 72px;
   height: 45px;
   transform-origin: top left;
