@@ -552,12 +552,12 @@ body {
   transform: rotate(180deg) translateY(20px) translateX(-54px);
 }
 
-/*.S:hover:after {
+.S:hover:after {
   background-color: transparent;
   border-color: rgba(0, 0, 255, 0.5);
 }
 
-.T {
+/*.T {
   width: 30px;
   height: 150px;
   left: 75px;
