@@ -132,11 +132,12 @@ body {
   background: #f2f2f2;
 }
 
-/*.C:hover {
+.C:hover {
   background-color: transparent;
   border-color: rgba(0, 255, 0, 0.5);
 }
-.C:hover:after {
+
+/*.C:hover:after {
   background-color: rgba(0, 0, 255, 0.5);
 }
 
